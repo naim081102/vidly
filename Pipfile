@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+
+[packages]
+django = "==2.1"
+guicorn = "*"
+whitenoise = "*"
+heroku = "*"
+tastypie = "*"
+django-tastypie = "*"
+pthon-dateutil = "*"
+python-mimeparse = "*"
+python-dateutil = "*"
+
+[requires]
+python_version = "3.5"
